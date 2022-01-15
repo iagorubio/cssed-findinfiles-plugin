@@ -1,0 +1,137 @@
+# French translation of cssed-findinfiles-plugin.
+# Copyright (C) 2004-2006, Iago Rubio
+# This file is distributed under the same license as the cssed package.
+# Michèle Garoche <michele.garoche@easyconnect.fr>, 2004-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cssed-findinfiles-plugin-0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-31 19:41+0200\n"
+"PO-Revision-Date: 2006-01-02 10:15+0100\n"
+"Last-Translator: Michèle Garoche <michele.garoche@easyconnect.fr>\n"
+"Language-Team: French <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/findinfiles.c:38
+msgid "Findinfiles Plugin"
+msgstr "Recherche dans fichiers"
+
+#. the plugin name
+#: src/findinfiles.c:39
+msgid "Find matches in various files"
+msgstr "Recherche des chaînes de caractères dans des fichiers"
+
+#: src/findinfiles.c:72 src/interface.c:202
+msgid "Find in files"
+msgstr "Recherche dans les fichiers"
+
+#: src/interface.c:83
+msgid "Search term"
+msgstr "Chaîne à rechercher"
+
+#: src/interface.c:91
+msgid "Depth"
+msgstr "Niveau d'imbrication"
+
+#: src/interface.c:103
+msgid "Click here to start a search"
+msgstr "Cliquez ici pour commencer la recherche"
+
+#: src/interface.c:115
+msgid "Base directory"
+msgstr "Répertoire de démarrage"
+
+#: src/interface.c:119
+msgid "From document"
+msgstr "À partir du document"
+
+#: src/interface.c:122
+msgid "Click here to set the base directory from current's document one."
+msgstr ""
+"Cliquez ici pour définir le répertoire de démarrage à partir de celui du "
+"document."
+
+#: src/interface.c:127
+msgid "Click here to set the base directory"
+msgstr "Cliquez ici pour définir le répertoire de démarrage"
+
+#: src/interface.c:132
+msgid "Enter a base directory to search"
+msgstr "Saisissez un repertoire à partir duquel s'effectuera la recherche"
+
+#: src/interface.c:210
+msgid "In current base directory"
+msgstr "Dans le répertoire de démarrage actif"
+
+#: src/interface.c:214
+msgid "In file's base directory"
+msgstr "Dans le répertoire de base du fichier"
+
+#: src/callbacks.c:156
+msgid "Base directory not set"
+msgstr "Le répertoire de démarrage n'est pas défini"
+
+#: src/callbacks.c:156
+msgid "Please set the base directory where the search will start"
+msgstr ""
+"Veuillez définir le répertoire à partir duquel la recherche s'effectuera"
+
+#: src/callbacks.c:163
+msgid "Search term not set"
+msgstr "La chaîne de caractères à recherche n'est pas définie"
+
+#: src/callbacks.c:163
+msgid "Please enter a search term to search for."
+msgstr "Veuillez saisir une chaîne de caractères à rechercher."
+
+#: src/callbacks.c:204 src/callbacks.c:368
+msgid "Search error"
+msgstr "Erreur pendant la recherche"
+
+#: src/callbacks.c:204
+msgid "Unable to launch the search proccess"
+msgstr "Impossible de lancer le processus de recherche"
+
+#: src/callbacks.c:233 src/callbacks.c:236 src/callbacks.c:239
+msgid "Select a directory"
+msgstr "Choisissez un répertoire"
+
+#: src/callbacks.c:275
+msgid "File is not saved"
+msgstr "Fichier non enregistré"
+
+#: src/callbacks.c:275
+msgid ""
+"The file is not saved on this, cannot use\n"
+"this file's base directory"
+msgstr ""
+"Ce fichier n'a pas été enregistré, il n'y a donc\n"
+"pas de répertoire de démarrage pour ce fichier"
+
+#: src/callbacks.c:368
+msgid "Cannot open pipe"
+msgstr "Impossible d'ouvrir le tube"
+
+#: src/callbacks.c:376
+msgid "** Starting search ..."
+msgstr "** Début de recherche ..."
+
+#: src/callbacks.c:399
+msgid "** Search end."
+msgstr "** Fin de la recherche."
+
+#: src/callbacks.c:556
+msgid "File not saved"
+msgstr "Fichier non enregistré"
+
+#: src/callbacks.c:556
+msgid ""
+"This file is not saved, so there is no base directory for this file.\n"
+"Please save the file and try again."
+msgstr ""
+"Ce fichier n'a pas été enregistré, il n'y a donc pas de répertoire de "
+"démarrage pour ce fichier.\n"
+"Veuillez enregistrer le fichier et reéssayer."

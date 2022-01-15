@@ -1,0 +1,6 @@
+NEWS file for ccsed-findinfiles plugin
+
+Version 0.2
+ Handles now spaces in path
+ Freeze the editor on Mac OS X while searching to avoid crash when clicking on a line
+

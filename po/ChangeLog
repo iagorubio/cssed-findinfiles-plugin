@@ -1,0 +1,52 @@
+2006-01-02  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* cssed-findinfiles-plugin.pot, es.po, fr.po: 
+	
+	New pot file according to changes in callback.c
+	Updating copyright year and version number in es.po and fr.po
+
+2004-09-25  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* es.po, fr.po: 
+	
+	New pot file according to changes in findinfiles.c (plugin name in GUI)
+
+2004-09-15  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* es.po, fr.po: 
+	
+	New pot file according to changes in callbacks.c (reference to strings)
+
+2004-09-14  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* fr.po: 
+	
+	Changed name in plugin window
+
+2004-09-13  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* es.po, fr.po: 
+	
+	Changed English strings according to changes in source files
+	Updated both fr and es, new pot
+
+2004-09-12  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* find_in_files_plugin.pot: 
+	
+	Removing file since the name has changed
+
+2004-09-11  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* es.po, fr.po: 
+	
+	Changed strings according to changes in source files
+	Changed headers to conform to all cssed po files
+	Updated both fr and es
+
+	Created new pot file
+
+	* fr.po: 
+	
+	First translation
+

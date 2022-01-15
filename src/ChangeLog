@@ -1,0 +1,57 @@
+2006-01-02  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/callbacks.c: 
+	
+	Removed conditional on DARWIN for final cmd line
+	Not needed any more since we use -xargs0 which
+ 	implies -xprint0 and combination of both arguments
+	works on Mac OS X
+
+2004-09-15  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/findinfiles.c: 
+	
+	Changed the plugin name for cssed GUI
+
+2004-09-15  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/callbacks.c: 
+	
+	Reintroduced old search for Darwin, no print0, no xargs 0
+
+2004-09-14  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/callbacks.c: 
+	
+	Corrected misspelling
+	
+	* src/findinfiles.c
+	
+	Added gtk_set_locale()
+
+2004-09-11  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/Makefile.am
+	
+	Changed the plugin's name and plugin so
+	Make a conditional for DARWIN for right plugin location
+	
+	* src/callbacks.c: 
+	
+	Added conditional to force macdepth=1 on DARWIN in case
+	it is not set or set to 0
+	
+	* src/interface.c, src/findinfiles.c, src/callbacks.c: 
+	
+	Changed strings to have first letters capitalized in GUI
+
+2004-09-09  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* src/interface.c, src/findinfiles.c, src/callbacks.c: 
+	
+	Changed strings to have first letters capitalized in GUI
+	
+	* ChangeLog: 
+	
+	Added it to track changes
+

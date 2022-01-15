@@ -1,0 +1,13 @@
+cssed findinfiles plugin
+------------------------
+
+This plugin provides a search panel
+to be added to cssed, which allows 
+you to search recursively for a given
+term inside files from a given directory.
+
+Read the COPYING file to know license and
+distribution terms.
+
+cssed findinfiles plugin (c) Iago Rubio, 2004-2006
+

@@ -1,0 +1,82 @@
+2006-01-02  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* callbacks.c: 
+	
+	Removed conditional on DARWIN for final cmd line 
+	Not needed anymore since now we use xargs -0 which implies -print0
+	And this way -print0 works on Mac OS X
+
+2004-09-13  iagorubio  <iagorubio@users.sourceforge.net>
+
+	* src/callbacks.c:
+	Fixed problem with spaces in file names, repoted by Michelle Garoche.
+
+2004-09-12  iagorubio  <iagorubio@users.sourceforge.net>
+
+	* ChangeLog: Updated ChangeLog from cvs.
+
+	* src/callbacks.c: Fixed small glitches reported by Michelle Garoche.
+	(fif_search_proc) Added warning to let the user know when starts and ends a search.
+	(on_button_fif_set_basedir_clicked) Fixed problem when changing base directory.
+
+	* po/es.po: Updating language files
+
+	* po/es.gmo: CVS cleanup: deleting unneeded files.
+
+2004-09-12  michga  <michga@users.sourceforge.net>
+
+	* po/find_in_files_plugin.pot:
+	Removing find_in_files_plugin.pot since the name has changed
+
+2004-09-12  iagorubio  <iagorubio@users.sourceforge.net>
+
+	* src/callbacks.c: Fixed small glitches reported by Michelle Garoche.
+	(fif_search_proc) Added warning to let the user know when starts and ends a search.
+	(on_button_fif_set_basedir_clicked) Fixed problem when changing base directory.
+
+	* po/es.po: Updating language files
+
+	* po/es.gmo: CVS cleanup: deleting unneeded files.
+
+2004-09-12  michga  <michga@users.sourceforge.net>
+
+	* po/find_in_files_plugin.pot:
+	Removing find_in_files_plugin.pot since the name has changed
+
+2004-09-11  iagorubio  <iagorubio@users.sourceforge.net>
+
+	* src/callbacks.c:
+	Fixed bug in getline(). I was not NULL terminating the line so there was garbage at the end of the string.
+
+	* src/callbacks.c, src/interface.c:
+	Small changes in UI and callbacks to get better usability on OsX.
+
+2004-09-11  michga  <michga@users.sourceforge.net>
+
+	* src/ChangeLog, src/Makefile.am, src/callbacks.c, src/findinfiles.c, src/interface.c:
+	Changed strings and conditionals to make it work on Mac
+
+	* po/ChangeLog, po/cssed-findinfiles-plugin.pot, po/es.po, po/fr.po:
+	New potfile, changed name, new es and fr po files, updated
+
+	* ChangeLog, NEWS, README, configure.in:
+	Added contents to NEWS and README, changed plugin's name, added fr in configure.in
+
+2004-09-10  iagorubio  <iagorubio@users.sourceforge.net>
+
+	* AUTHORS, Makefile.am, Makefile.in, acconfig.h, autogen.sh, bootstrap, compile, config.guess, config.sub, configure, configure.in, src/Makefile.am, src/Makefile.in, src/callbacks.c, src/callbacks.h, src/findinfiles.c, src/findinfiles.h, src/interface.c:
+	Made changes to fix it on BSD like systems as FreeBSD and - probably - Mac OsX.
+
+
+2004-09-11  Michèle Garoche <michele.garoche@easyconnect.fr>
+
+	* NEWS, README:
+	
+	Added content
+	
+	* configure.in: 
+	
+	Changed name of the plugin
+	Added fr to ALL_LINGUAS
+	
+
